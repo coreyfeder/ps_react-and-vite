@@ -29,7 +29,8 @@ Now we can delete some chaff.
         nothing in the `return` statement
         none of the state management
         none of the imports except ./App.css
-Now it's blank.
+Now it's a blank canvas.
+    Don't mess with main.jsx or index.html. Then it'll just be...mindwiped.
 
 
 # Now, let's ORGANIZE!
@@ -43,4 +44,11 @@ Some make a "styles" folder
 We're going to do something called "styled components"
     in components, make a folder for each component
         in that folder, put both the .jsx _and_ the .css file
+
+Put in some dummy components.
+
+But how do you get it in?
+in App.jsx, import it.
+    `import Box from "./components/Box/Box"`
+and call it in App.jsx as a closed element (`<Box />`)
 
