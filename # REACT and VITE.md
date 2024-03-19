@@ -1,5 +1,10 @@
 # REACT
 
+https://perscholas.instructure.com/courses/1923/pages/lesson-320h-dot-2-react-state-and-props
+
+Braod note: React has a lot of quirks they never ironed out, from the outdated installer to sometimes having to double-call functions.
+
+
 like everything, we can install it with `npm`
 it doesn't just install libraries, it can install whole frameworks
 
@@ -52,3 +57,23 @@ in App.jsx, import it.
     `import Box from "./components/Box/Box"`
 and call it in App.jsx as a closed element (`<Box />`)
 
+
+...[missed a couple minutes]
+
+components can change variables and such, but it will ONLY re-render if its state changes.
+and "state change" is a specific thing.
+    there's a State Object that tracks "state change"
+
+
+## Props
+
+Short for properties.
+
+You need to pass information around.
+Everything is a prop.
+
+## State Management
+
+Props only pass down. How do we get it back up?
+Parents pass _function_ as a prop.
+It acts like a callback?

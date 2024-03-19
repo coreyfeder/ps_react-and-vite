@@ -1,6 +1,14 @@
-import "./box.css"
+import "./box.css";
+
+import NameLabel from "../NameLabel/NameLabel";
 
 export default function Box() {
-    // every component needs to return some HTML, or it's not a component.
-    return <div className="Box"><p>Heya World!</p></div>
+  return (
+    <div className="Box">
+      <NameLabel name="Alice" />
+      <NameLabel name="Bob" />
+      <NameLabel name="Cathy" />
+      <NameLabel name="Daniel" />
+    </div>
+  );
 }

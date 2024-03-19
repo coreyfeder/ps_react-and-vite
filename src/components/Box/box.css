@@ -2,13 +2,9 @@
     border: 2px black solid;
     background-color: cornflowerblue;
     width: 200px;
-    height: 100px;
+    height: 400px;
 }
 
 .Box > * {
-    width: 1fr;
-    height: 1fr;
-    border: red 3px;
     text-align: center;
-    vertical-align: middle;
 }
