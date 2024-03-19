@@ -104,3 +104,4 @@ ah, yup. {...props}
 
 Props can be in flux.
 When a prop changes, all the props get updated and the components re-render.
+But state is weird. A component must ask for a new state from its parent.
