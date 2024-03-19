@@ -77,3 +77,30 @@ Everything is a prop.
 Props only pass down. How do we get it back up?
 Parents pass _function_ as a prop.
 It acts like a callback?
+
+
+### beware Prop Drilling
+
+it's nontrivial to through-pass props, i.e., to grandchild objects
+    (sort of? can you just send it {props} or {...props} or something?)
+anyway, it looks like you're supposed to send the props to the highest-level component
+
+
+### Prop Handling
+
+#### destructuring
+
+({ name, age })
+
+this allows setting defaults
+({ name, age=18 })
+
+#### spreading props
+
+ah, yup. {...props}
+
+
+### Dynamic and Changing Props
+
+Props can be in flux.
+When a prop changes, all the props get updated and the components re-render.

@@ -1,3 +1,4 @@
 * {
-    /* border-collapse: collapse; */
+    border-collapse: collapse;
+    box-sizing: border-box;
 }
